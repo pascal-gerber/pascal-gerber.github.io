@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Pascal Gerber</title>
+</head>
+
+<body>
+  <h1>Welcome to my portfolio</h1>
+  <p>my biggest skillset is on <a href="https://github.com/pascal-gerber/Library">python</a> but this is about the HTML
+    skillset</p>
+  <ol>
+    <!-- Iframes with contents -->
+      
+    <!-- Hello world -->
+    <li>
+    <a href="Hello%20world/index.html">
+    <p></p>
+    <iframe class="testClass" src="Hello%20world/index.html">
+        
+    </iframe></a>
+        </li>
+      
+    <!-- Lists -->
+    <li>
+    <a href="Lists/index.html">
+      <p></p>
+      <iframe class="testClass" src="Lists/index.html">
+
+      </iframe></a>
+        </li>
+  </ol>
+
+  <style>
+      p+* a {
+        display: block;
+        font-size: 95%;
+        content: "HTML";
+        background: rgba(0, 0, 0, 0);
+        overflow: hidden;
+    }
+
+    iframe {
+      top: 0;
+      z-index: -1;
+    }
+    iframe.testClass {
+      position: absolute;
+    }
+    iframe.testClass,
+    p+* a {
+      height: 500px;
+      width: 70%;
+    }
+
+    li>a {
+      position: relative !important;
+        
+    }
+  </style>
+
+</body>
+</html> 
