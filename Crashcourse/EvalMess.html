@@ -40,5 +40,13 @@
     <button class="biggerFont" type="button" onclick="alert(eval(fname.value))">Eval the text</button>
     
     <h3 class="smaller">Thanks for trying</h3>
+    
+    <script>
+
+if (window.location.fragment) {
+  fname.value = window.location.fragment;
+} 
+</script>
+    
 </body>
 </html>
