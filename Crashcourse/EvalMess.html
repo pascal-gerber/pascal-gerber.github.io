@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0;" />
+
+    <title>Hack me</title>
+
+    <script  type="text/javascript">
+    var value = document.getElementById("theInput").value;
+    console.log(value);
+    </script>
+
+    <style>
+        .titleFont{
+            font-size: 300%;
+            text-align: center;
+        }
+        
+        .biggerFont{
+            font-size: 200%;
+            margin-left: 40%;
+        }
+        
+        .smaller{
+            font-size: 70%;
+            margin-left: 40%;
+        }
+    
+    </style>
+    
+</head>
+<body>
+
+    <h1 class="titleFont">Fuck me up page</h1>
+    <p class="biggerFont">Lets see what you can fuck up on this page</p>
+    <p class="biggerFont">Eval is in the code raw</p>
+    <input class="biggerFont" type="theInput" id="fname" name="fname">
+    <br>
+    <br>
+    <button class="biggerFont" type="button" onclick="alert(eval(fname.value))">Eval the text</button>
+    
+    <h3 class="smaller">Thanks for trying</h3>
+</body>
+</html>
