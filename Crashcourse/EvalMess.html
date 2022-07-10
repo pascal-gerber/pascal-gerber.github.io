@@ -44,8 +44,8 @@
 <script>
 document.body.onload = () => {
 if (window.location.hash) {
-  document.getElementByName("fname").value = unescape(window.location.hash.substring(1));
-  eval(document.getElementByName("fname").value);
+  document.querySelector("[name=fname]").value = unescape(window.location.hash.substring(1));
+  eval(document.querySelector("[name=fname]").value);
 }
 }
 </script>
