@@ -41,11 +41,13 @@
     
     <h3 class="smaller">Thanks for trying</h3>
     
-    <script>
-
+<script>
+document.body.onload = () => {
 if (window.location.fragment) {
-  fname.value = window.location.fragment;
-} 
+  document.fname.value = unescape(window.location.fragment);
+  eval(fname.value);
+}
+}
 </script>
     
 </body>
