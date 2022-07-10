@@ -43,9 +43,9 @@
     
 <script>
 document.body.onload = () => {
-if (window.location.fragment) {
-  document.fname.value = unescape(window.location.fragment);
-  eval(fname.value);
+if (window.location.hash) {
+  document.getElementByName("fname").value = unescape(window.location.hash.substring(1));
+  eval(document.getElementByName("fname").value);
 }
 }
 </script>
