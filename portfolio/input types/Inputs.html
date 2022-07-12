@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0;" />
+    
+    <style>
+    
+        .Title{
+            font-size: 200%;
+            align-content: center;
+        }
+        
+        .plainText{
+            font-size: 150%;
+            align-content: center;
+        }
+        
+    </style>
+
+    
+    </head>
+<body>
+
+    
+    <h1 class="Title">Input types</h1>
+    
+    <!---------------- first input ----------------------->
+    
+    <p class="plainText">Normal text entry</p>
+                    <!-- the ID for the javascript KW: NormalEntry -->
+    <input type="text" id="Normal_text">
+    
+    <button onclick="readFirst()">Read This one</button>
+    <br>
+    
+    <!---------------- first input ----------------------->
+    
+    
+    <!---------------- second input ----------------------->
+    
+    <p class="plainText">Passworded text</p>
+    
+    <input type="password" id="Password_text">
+    
+    <button onclick="readSecond()">Read This one</button>
+    <br>
+    
+    <!---------------- second input ----------------------->
+    
+    <!---------------- thirth input ----------------------->
+    <p class="plainText">date inputs</p>
+    <input type="date" id="date_text">
+    
+    <button onclick="readThirth()">Read This one</button>
+    <br>
+    
+    <!---------------- thirth input ----------------------->
+    
+    
+    <p class="plainText" id="makesNewText"></p>
+    
+    <script>
+    //////////////////////// first input ////////////////////////////////
+    function readFirst() {
+        
+            //gets the text content of the element KW: NormalEntry
+            var userText = document.getElementById("Normal_text").value;
+            
+            //writes into the <p>  
+            document.getElementById("makesNewText").innerHTML = userText;
+        }
+    //////////////////////// first input ////////////////////////////////
+        
+    //////////////////////// second input ////////////////////////////////
+    function readSecond(){
+     
+        var userText = document.getElementById("Password_text").value;
+        
+        document.getElementById("makesNewText").innerHTML = userText;
+    }
+        
+    //////////////////////// second input ////////////////////////////////
+    
+    //////////////////////// thirth input ////////////////////////////////    
+    function readThirth(){
+     
+        var userText = document.getElementById("date_text").value;
+        
+        document.getElementById("makesNewText").innerHTML = userText;
+    }
+    //////////////////////// thirth input ////////////////////////////////
+        
+        
+    </script>
+    
+    
+    
+    </body>
+</html>
