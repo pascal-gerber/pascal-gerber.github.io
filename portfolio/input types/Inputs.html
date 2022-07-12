@@ -57,6 +57,28 @@
     
     <!---------------- thirth input ----------------------->
     
+	<!------------------ month inputs ------>
+	
+    <p class="plainText">Month inputs</p>
+	<input type="month" id="month_text">
+    
+    <button onclick="readFourth()">Read This one</button>
+    <br>
+    
+    <!------------------ month inputs ------>
+    
+
+    <!------------------ month inputs ------>
+	
+    <p class="plainText">Month inputs</p>
+	<input type="time" id="time_text">
+    
+    <button onclick="readFifth()">Read This one</button>
+    <br>
+    
+    <!------------------ month inputs ------>
+    
+    
     
     <p class="plainText" id="makesNewText"></p>
     
@@ -91,9 +113,28 @@
     }
     //////////////////////// thirth input ////////////////////////////////
         
+    //////////////////////// fourth input ////////////////////////////////    
+    function readFourth(){
+     
+        var userText = document.getElementById("month_text").value;
+        
+        document.getElementById("makesNewText").innerHTML = userText;
+    }
+    //////////////////////// fourth input ////////////////////////////////
+        
+    //////////////////////// fifth input ////////////////////////////////    
+    function readFifth(){
+     
+        var userText = document.getElementById("time_text").value;
+        
+        document.getElementById("makesNewText").innerHTML = userText;
+    }
+    //////////////////////// fourth input ////////////////////////////////
+        
         
     </script>
     
+    <p class="plainText"><a href="https://raw.githubusercontent.com/pascal-gerber/pascal-gerber.github.io/main/portfolio/input%20types/Inputs.html">View the Raw code</a></p>
     
     
     </body>
