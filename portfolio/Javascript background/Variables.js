@@ -1,22 +1,23 @@
 //Let standing for Letter is an old way to write a variable type
 //some old functions are supported on it, but usually
 //not used today anymore
-let oldVariable = 20
+let oldVariable = 20;
 //Still works perfectly
 
+//note: the ";" sign at the end is strongly recommanded.
 
 //Var standing for Variable is the newer version of a variable
 //var has more recent function possibilities
-var newVariable = 20
+var newVariable = 20;
 
 //const meaning Constant is here to signal a value that cannot be changed
-const unchangable = 10
+const unchangable = 10;
 
 
 //new variables can be made on the flight
 //while all the variable types can interact with each other
 
-var allThree = oldVariable + newVariable + unchangable
+var allThree = oldVariable + newVariable + unchangable;
 
 
 //those commands can be used for printing out a result
@@ -25,9 +26,9 @@ var allThree = oldVariable + newVariable + unchangable
 //then select the console
 
 //alert doesn't require a console, it will simply pop up on the top
-alert(allThree)
+alert(allThree);
 //or
-console.log(allThree)
+console.log(allThree);
 //theres another which concists of writting in a tag
 
 //this line
