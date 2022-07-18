@@ -19,3 +19,6 @@ else{
     console.log("whut ?")
 }
 //can be well used for error handling of a false input
+
+//made by pascal
+//enjoy!
