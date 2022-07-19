@@ -26,7 +26,7 @@ console.log("-------------------------")
 ////////////////////////////////////////////////////////////////////////////////////////////////
 //2. indexes in strings
 
-let nameOfPerson = "David"
+let nameOfPerson = "david"
 
 console.log(nameOfPerson[0], "first letter")
 //you can also take specificly indexes of strings
@@ -37,3 +37,8 @@ console.log(nameOfPerson.slice(0, 3), "4 first letters")
 console.log(nameOfPerson.indexOf("vid"), "finding the indexes of the vid part");
 //indexOf allows you to find certain words in a string
 
+console.log(nameOfPerson.lastIndexOf("d"), "Last D letter in the name");
+//last instance of the letter d
+
+console.log(nameOfPerson.length(), "Lenght of the word in question");
+//gives out how many letters there are in a word, usefull for loops and other purposes
