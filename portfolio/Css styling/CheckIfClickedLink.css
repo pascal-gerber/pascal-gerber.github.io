@@ -1,0 +1,9 @@
+.clickedBefore{
+    font-size: 120%;
+    color: blue;
+}
+
+/* allows you to check if the link has been visited before */
+.clickedBefore:visited{
+    color: chartreuse;
+}

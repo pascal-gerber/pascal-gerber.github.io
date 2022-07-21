@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0;" />
+    <title>Css Styling</title>
+    
+    <!-- important  rel="stylesheet"  because it can also be used as "icon".
+    Its not just a name -->
+    <link rel="stylesheet" type="text/css" href="newStyle.css" />
+    <link rel="stylesheet" type="text/css" href="classesDefined.css" />
+    <link rel="stylesheet" type="text/css" href="MoreSpecificOPtions.css" />
+    <link rel="stylesheet" type="text/css" href="CheckIfClickedLink.css" />
+    
+    </head>
+<body>
+
+    <h1>Css Styling</h1>
+    
+    <p>This is a styled page.</p>
+    <p>It will contain some styles from different links on</p>
+
+    <ol>
+        <li>
+    <new><a href="newStyle.css">we can change the format to tags</a></new>
+    <br>
+    <new>Since thier links the color got lost</new>
+            </li>
+        <li>
+    <p class="changeClass"><a href="classesDefined.css">we can also define classes</a></p>
+    <p class="changeClass">Here too did the color get lost</p>
+        </li>
+        <li>
+    <p class="MoreOptions"><a href="MoreSpecificOPtions.css">Now we can also have more specific options</a></p>
+    <p class="MoreOptions">hover over me</p>
+        </li>
+        <li>
+    <p class="clickedBefore"><a href="CheckIfClickedLink.css">This link will only have a one time effect</a></p>
+    <p class="clickedBefore">Allows you to show the user he has been there already.</p>
+        </li>
+    </ol>
+
+    <!-- style tag takes then CSS in browser, usualy it is recommanded to do it only on one css tho -->
+    <style>
+            .codeFormat{
+            font-family:"Courier New, sans-serif";
+            background-color: beige;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+    </style>
+    
+    
+    <p> This code allows you to couple the HTML and the CSS togheter </p>
+    <p class="codeFormat">&lt;link rel="stylesheet" type="text/css" href="CssStyleSheet.css" /&gt;</p>
+    
+</body>
+</html>

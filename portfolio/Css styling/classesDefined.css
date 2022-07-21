@@ -1,0 +1,6 @@
+/* this . at the beginning defines a class, every object in this class will become the way it is defined. */
+.changeClass{
+    /* in font sizes you can either use pixels or percentage like in every other height/width definition */
+    font-size: 20px;
+    color: blue;
+}

@@ -1,0 +1,10 @@
+.MoreOptions{
+    font-size: 20px;
+    color: cadetblue;
+    
+}
+
+/* the hover adds an extra cherry on the top by making it get its own class when SPEFICLY hovered over */
+.MoreOptions:hover{
+    color:darkblue;
+}
