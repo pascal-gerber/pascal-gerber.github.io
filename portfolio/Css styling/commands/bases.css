@@ -1,0 +1,32 @@
+.title{
+    font-size: 200%;
+    align-content: center;
+}
+
+.normalText{
+    font-size: 150%;
+    align-content: center;
+}
+
+.allFormats{
+    padding: 20px;
+    background-color: yellow;
+    border: 20px solid green;
+    margin: 20px;
+    
+}
+
+.imagemiddle{
+    width: 40%;
+    height: 40%;
+}
+
+.listOfStuff{
+    padding: 5%;
+    background-color: aquamarine;
+}
+
+.linkToHEre{
+    font-size: 140%;
+    align-content: center;
+}
