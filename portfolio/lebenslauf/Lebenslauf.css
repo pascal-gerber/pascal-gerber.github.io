@@ -10,18 +10,18 @@
 }
 
 .secondcolumn {
-    flex: 20%;
+    flex: 30%;
     width: 40%;
     background-color:white;
 }
 
 .tirthcolumn {
-    flex: 50%;
+    flex: 40%;
     background-color:white;
 }
 
 .title {
-    margin-left: 30%;
+    margin-left: 18%;
     font-family: sans-serif;
     font-size: 300%;
     color: black;
