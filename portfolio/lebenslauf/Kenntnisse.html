@@ -27,7 +27,11 @@ function changeColor(){
     if(reverseB === false){b += 1 ;}
     if(b === 255){reverseB = true}
     else if(b === 0){reverseB = false}
-    if(reverseB === true){b -= 1 ;}document.body.style.backgroundColor = `rgb( ${r}, ${g}, ${b} )`;}</script>
+    if(reverseB === true){b -= 1 ;}
+    document.body.style.backgroundColor = `rgb( ${r}, ${g}, ${b} )`;
+    let allTexts = document.querySelectorAll("h2")
+    allTexts.style.color = `rgb( ${255 - r}, ${255 - g}, ${255 - b} )`;}
+    </script>
     
     
 </head>
