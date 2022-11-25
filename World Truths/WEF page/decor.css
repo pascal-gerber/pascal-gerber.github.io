@@ -1,0 +1,41 @@
+.mainTitle{
+    margin-left: 10%;
+    font-size: 500%;
+}
+
+.titleImage{
+    margin-left: 10%;
+}
+
+.tinyText{
+    margin-left: 10%;
+    margin-top: 0px;
+    font-size: 130%;
+}
+
+.voice{
+    margin-left: 10%;
+}
+
+.maintext{
+    margin-left: 10%;
+    font-size: 200%;
+}
+
+.serges_talk{
+    font-size: 300%;
+    margin-left: 10%;
+    margin-right: 40%;
+}
+
+.guyWhoTalks{
+    margin-left: 10%;
+    margin-right: 40%;
+    color: dimgrey;
+}
+
+.biggerframe{
+    margin-left: 10%;
+    height: 1000px;
+    width: 100%;
+}
